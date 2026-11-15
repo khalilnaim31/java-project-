@@ -1,16 +1,17 @@
 package uphf.astro.modele;
-
+import java.util.Objects;
 public class POSITION {
 	private int x;
 	private int y;
 	public POSITION(int x,int y){
-		
+		this.x=x;
+		this.y=y;
 	}
 	public int getX() {
-		return 0;
+		return x;
 	}
 	public int getY() {
-		return 0;
+		return y;
 	}
 	
 

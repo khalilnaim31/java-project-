@@ -1,10 +1,9 @@
 package uphf.astro.modele;
 
-public abstract class CORPSCELESTE {
-	private String id;
+public  class CORPSCELESTE {
 	private String nom;
 	private boolean atmosphere;
-	public CORPSCELESTE() {}
+	private carte Carte;
 	public CORPSCELESTE(String id,String nom, boolean atmoshpere) {
 		this.id = id;
 		this.nom = nom;
